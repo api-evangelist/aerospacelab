@@ -1,0 +1,26 @@
+generated: '2026-08-06'
+method: probed
+source: live probes of https://www.aerospacelab.com
+host: https://www.aerospacelab.com
+result: none
+note: 'Every /.well-known/ path probed returned 404. The host answers 404 with an HTML
+  "Page Not Found" body (~27KB), verified against a control path, so no soft-200 false
+  positives were recorded. No pointer is wired into apis.yml for this file: there is
+  no well-known discovery surface to point at, and emitting a WellKnown pointer for
+  an all-404 index would credit a capability Aerospacelab does not publish. This file
+  exists only as the probe record.'
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404

@@ -1,0 +1,33 @@
+# Aerospacelab
+
+> Aerospacelab is a vertically integrated satellite manufacturer based in Mont-Saint-Guibert, Belgium, founded in 2018. It designs, builds, tests and operates small-to-medium satellites — the Versatile Satellite Platform (VSP-50, VSP-150, VSP-300) family plus mission-specific Earth observation, SAR, RF-sensing and telecommunications payloads — for commercial, institutional and government customers on an ITAR-free European supply chain.
+
+Aerospacelab publishes **no public API, no developer portal and no machine-readable API contract**. There is no OpenAPI, AsyncAPI, GraphQL, MCP or A2A surface to call. Its programmatic capabilities (mission control software, a tasking tool, an image-processing pipeline and a data platform, built in part under the ESA InCubed MultiSpectral Companion Mission) are delivered to contracted mission customers, not to self-serve developers. Do not attempt to construct requests against an Aerospacelab API — none is documented.
+
+## Company
+
+- [Aerospacelab](https://www.aerospacelab.com/): Company homepage — platforms, payloads, subsystems and end-to-end mission services.
+- [Contact](https://www.aerospacelab.com/contact): The only intake channel for mission, partnership and supplier inquiries.
+- [Executive team](https://www.aerospacelab.com/our-executive-team): Leadership.
+- [Partners and suppliers](https://www.aerospacelab.com/partners-suppliers): Supply-chain and partner program.
+- [Open procurement processes](https://www.aerospacelab.com/open-procurement-processes): Active procurement tenders.
+- [Careers](https://www.aerospacelab.com/jobs): Open roles, including the software squads behind the ground and mission systems.
+
+## News
+
+- [Blog](https://www.aerospacelab.com/blog): All posts.
+- [Press releases](https://www.aerospacelab.com/blog/press-releases-1) ([Atom feed](https://www.aerospacelab.com/blog/press-releases-1/feed))
+- [Blog articles](https://www.aerospacelab.com/blog/blog-articles-2) ([Atom feed](https://www.aerospacelab.com/blog/blog-articles-2/feed))
+- [Feature insights](https://www.aerospacelab.com/blog/feature-insights-4) ([Atom feed](https://www.aerospacelab.com/blog/feature-insights-4/feed))
+- [Events](https://www.aerospacelab.com/events): Conference and trade-show schedule.
+
+## Security and legal
+
+- [Coordinated Vulnerability Disclosure Policy](https://www.aerospacelab.com/coordinated-vulnerability-disclosure-policy): Report vulnerabilities to cvdp@aerospacelab.com. Based on Centre for Cybersecurity Belgium (CCB) recommendations. No bug bounty.
+- [Privacy policy](https://www.aerospacelab.com/privacy)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/aerospacelab/refs/heads/main/apis.yml): The APIs.json profile for this company.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/aerospacelab/refs/heads/main/security/aerospacelab-domain-security.yml): Probed TLS/HSTS/DNSSEC/SPF/DMARC posture.
+- [Vulnerability disclosure](https://raw.githubusercontent.com/api-evangelist/aerospacelab/refs/heads/main/security/aerospacelab-vulnerability-disclosure.yml): Captured CVDP.

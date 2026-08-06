@@ -1,8 +1,21 @@
 aid: aerospacelab
 name: Aerospacelab
-description: 'Aerospacelab is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Aerospacelab is a vertically integrated satellite manufacturer headquartered
+  in Mont-Saint-Guibert, Belgium, founded in 2018 by Benoit Deper. The company designs,
+  builds, tests and operates small-to-medium satellites — its Versatile Satellite Platform
+  (VSP-50, VSP-150, VSP-300) family plus mission-specific payloads spanning very-high-resolution
+  and multispectral/hyperspectral Earth observation, synthetic aperture radar, radio-frequency
+  sensing, and narrowband/broadband telecommunications — for commercial, institutional
+  and government customers, with an explicitly ITAR-free European supply chain. It
+  is roughly 90% vertically integrated across platforms, payloads, avionics and subsystems,
+  has flown eight satellites in under three years, acquired Belgian space-optics firm
+  AMOS, and is building a European satellite megafactory targeting 500 satellites per
+  year. Aerospacelab publishes no public developer program, API documentation or machine-readable
+  API contract; its programmatic surfaces (mission control, tasking, image-processing
+  pipeline and data platform built under the ESA InCubed MultiSpectral Companion Mission)
+  are delivered to contracted mission customers rather than to self-serve developers.'
 url: https://raw.githubusercontent.com/api-evangelist/aerospacelab/refs/heads/main/apis.yml
+image: https://www.aerospacelab.com/web/image/342190-68a123e8/Aerospacelab_VHR_20231221_0016%20%281%29-min.jpg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +25,15 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Satellites
+- Space
+- Earth Observation
+- Aerospace
+- Remote Sensing
+- Satellite Manufacturing
+- Telecommunications
+- Defense
+- Belgium
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aerospacelab-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.aerospacelab.com/
+- type: Blog
+  url: https://www.aerospacelab.com/blog
+- type: BlogRSS
+  url: https://www.aerospacelab.com/blog/press-releases-1/feed
+- type: Support
+  url: https://www.aerospacelab.com/contact
+- type: PrivacyPolicy
+  url: https://www.aerospacelab.com/privacy
+- type: Security
+  url: https://www.aerospacelab.com/coordinated-vulnerability-disclosure-policy
+- type: Partners
+  url: https://www.aerospacelab.com/partners-suppliers
+- type: Careers
+  url: https://www.aerospacelab.com/jobs
+- type: Events
+  url: https://www.aerospacelab.com/events
+- type: VulnerabilityDisclosure
+  url: security/aerospacelab-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/aerospacelab-llms.txt
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Aerospacelab is a satellite manufacturer that sells missions, not API calls
+    — its own sitemap lists only marketing, blog, events, jobs and legal pages with
+    no developer, docs or API section, and api./developer./docs.aerospacelab.com do
+    not resolve at all.
+  evidence:
+  - url: https://www.aerospacelab.com/sitemap.xml
+    status: 200
+  - url: https://www.aerospacelab.com/developers
+    status: 404
+  - url: https://www.aerospacelab.com/openapi.json
+    status: 404
+  - url: https://www.aerospacelab.com/.well-known/agent-card.json
+    status: 404
+  - url: https://api.aerospacelab.com/
+    status: 0
+  checked: '2026-08-06'
