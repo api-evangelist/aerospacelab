@@ -15,6 +15,17 @@ description: 'Aerospacelab is a vertically integrated satellite manufacturer hea
   pipeline and data platform built under the ESA InCubed MultiSpectral Companion Mission)
   are delivered to contracted mission customers rather than to self-serve developers.'
 url: https://raw.githubusercontent.com/api-evangelist/aerospacelab/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.aerospacelab.com/web/image/342190-68a123e8/Aerospacelab_VHR_20231221_0016%20%281%29-min.jpg
 x-type: company
 x-source: harvest:secondary-market
